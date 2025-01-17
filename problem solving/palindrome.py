@@ -1,4 +1,6 @@
 class Palindrome:
+    def palind(self):
+        print("palindrome or not")
     def palin(n):
         n=int(input("enter a number"))
         org=n
@@ -11,4 +13,6 @@ class Palindrome:
             print("the given no is palindrome")
         else:
             print("the given no is not palindrome")
-palin(n)
+        palin(n)
+p=Palindrome()
+p.palind()
